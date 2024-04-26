@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    padding: 20px;
+    background-color: white;
+   
+}
+
+
+main{
+    margin-left: 23%;
+    text-align: center; 
+    background-color: white;
+       
+}
+
+header{
+    width: 75vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 100;
+  
+}
+
+.recherche{
+    margin-left: 18%;
+    width: 65%;
+    background-color: #E9E9E9;
+}
+
+
+.section1{
+    margin-left: 16.9%;
+    width: 67.5%;
+    z-index: 0;
+}
+.text-blue{
+    color:#035DCF
+}
+
+#scroll-top-btn {
+    transition: all 0.3s; /* Animation douce lors du survol */
+    margin-right: 38px;
+}
+
+#scroll-top-btn:hover {
+    transform: scale(1.1); /* Augmentation de taille lors du survol */
+}
+.section2{
+    z-index: 250;
+    text-align: center;
+}
+
+.hidden { display: none; }
+
+
+#additional-content {
+    margin-left: 18.6% ;
+    width: 100%;
+    z-index: 0 ;
+}
+#container{
+    width: 43.7vw;
+    margin-left: 13.6% !important;
+}
+#section3 {
+    width: 44.5vw; /* Spécifiez la largeur désirée en unités de largeur de vue */
+    z-index: 0; /* Maintenir le niveau de z-index */
+    margin-left: 13% !important;
+    column-gap: 90px;
+   
+}
+
+
